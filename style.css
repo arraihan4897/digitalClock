@@ -1,0 +1,86 @@
+body{
+
+    background-image: linear-gradient(rgb(230, 146, 180) , rgb(200, 38, 103)
+    );
+    height: 650px;
+    text-align: center;
+    margin:50;
+    padding: 50px;
+
+}
+h1{
+    background-image:linear-gradient(rgb(149, 192, 251) , rgb(90, 94, 141)
+    );
+    box-shadow: -30px 30px 30px rgba(41, 41, 41, 0.3);
+    margin: auto;
+    max-width: 300px;
+    color: rgb(255, 0, 0);
+    border: 1px;
+    border-radius: 20px;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.bx{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(149, 192, 251), rgb(90, 94, 141)
+    );
+    max-width: 150px;
+    max-height: 60px;
+    margin:auto;
+    padding:40px;
+    box-shadow: -30px 30px 30px rgba(41, 41, 41, 0.3);
+}
+.container{
+   margin: auto;
+    margin: 30px;
+    display: flex;
+}
+#ampmbx{
+
+    margin: auto;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: 100px;
+    padding: 20px;
+    box-shadow: -30px 30px 30px rgba(41, 41, 41, 0.3);
+}
+.tm{
+    background-color:rgb(116, 116, 243) ;
+    padding: 10px;
+    border-radius: 20px;
+  
+}
+@media only screen and (max-width:688px) {
+    body{
+
+        background-image: linear-gradient(rgb(230, 146, 180) , rgb(200, 38, 103)
+        );
+        height: 900px;
+        text-align: center;
+        margin:50;
+        padding: 50px;
+    
+    }
+    .container{
+       
+        margin: auto;
+        padding: 40px;
+       
+        display: block;
+    }
+    .bx{
+        border: 1px solid black;
+        border-radius: 20px;
+        background-image: linear-gradient(rgb(149, 192, 251), rgb(90, 94, 141)
+        );
+        max-width:150px;
+        max-height: 60px;
+        margin:10px;
+        padding:50px;
+        box-shadow: -30px 30px 30px rgba(41, 41, 41, 0.3);
+    }
+}
+     
